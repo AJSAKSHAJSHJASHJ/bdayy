@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HBD</title>
+    <style>
+        body {
+            background-color: rgb(179, 55, 131);
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        #cont {
+            background-color: rgb(247, 118, 186);
+            margin: 15% auto;
+            width: 80%; /* Adjusted width for better responsiveness */
+            max-width: 400px; /* Added max-width for better readability on larger screens */
+            padding: 20px;
+            box-sizing: border-box;
+        }
+
+        p {
+            color: rgb(110, 9, 97);
+            text-align: center;
+        }
+
+        button {
+            display: block;
+            margin: 0 auto;
+            background-color: bisque;
+            padding: 10px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        #ss {
+            font-size: 150%; /* Adjusted font size for better readability */
+        }
+
+        #pp {
+            font-style: Papyrus, serif, sans-serif;
+            font-size: 250%; /* Adjusted font size for better readability */
+        }
+
+        /* Added a media query for smaller screens */
+        @media (max-width: 600px) {
+            #cont {
+                width: 90%;
+            }
+        }
+    </style>
+    <script>
+        function surp() {
+            alert("Surprise!");
+        }
+    </script>
+</head>
+<body>
+    <div id="cont">
+        <p id="ss">HAPPY BIRTHDAYYY</p>
+        <p id="pp">AMIRAAAAAA</p>
+        <button type="button" onclick="surp()">PINDOT MU TO :)</button>
+    </div>
+    <script>
+        function surp() {
+            window.location.replace("pp.html");
+        }
+    </script>
+</body>
+</html>
